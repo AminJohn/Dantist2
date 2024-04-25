@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/meadia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <style>
-        ul{
+        ul {
             list-style: none;
         }
-        button{
+
+        button {
             border: none;
         }
-        a{
+
+        a {
             text-decoration: none;
         }
 
-        .main_part1{
-    background-image: url(img/dantist.svg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height:600px;
-    margin-top: 0px;
-    padding-top: 0px;
-}
+        .main_part1 {
+            background-image: url(img/dantist.svg);
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 600px;
+            margin-top: 0px;
+            padding-top: 0px;
+            animation: changeBack 12s infinite;
+        }
+
+        @keyframes changeBack {
+            0% {
+                background-image: url('img/dantist.svg');
+            }
+
+            25% {
+                background-image: url('img/dantistSlider1.png');
+            }
+
+            50% {
+                background-image: url('img/dantistSlider3.jpg');
+            }
+
+            100% {
+                background-image: url('img/dantistSlider.jpg');
+            }
+        }
     </style>
 </head>
+
 <body>
 
     <div class="inner">
@@ -41,91 +68,296 @@
             <div class="ring"></div>
             <span class="loading">LOADING...</span>
         </div>
-        </div>
+    </div>
+
 
     <header class="header">
         <nav>
-     <section class="header_part1">
-         <div class="header_part1_controlblock">
-            <div class="header_part1_block1">
-                <p class="sign">&#125;</p>
-                <p class="text_1">Mon - Sat 8:00 17:30, Sunday-CLOSED </p>
-                <img class="phone-call" src="/img/free-icon-font-phone-call.png" alt="phone-call" width="13px" height="16px">
-                <p class="text_2">+654/4715-167</p>
-           
-           
-                <p class="text_3">allsmiles@qodeinteractive.com</p>
-         
-            
-                <img class="font-marker" src="/img/free-icon-font-marker.png" alt="font-marker" width="17px" height="16.53px">
-                <p class="text_4">63 Wall St, New York, NY 10005</p>
-                 
-            </div>
-         </div> 
-      </section>
-      <section class="header_part2">
-        <div class="header_part2_controlblock">
-            <button class="burger_header_btn" id="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="header_part2_name">
-                <h1 class="header_part2_name_part1">ALL</h1>
-                <h1 class="header_part2_name_part2">SMILES</h1>
-            </div>
-            <div class="header_part2_buttons">
-                <ul class="header_part2_buttons_list">
-                    <li class="header_part2_buttons_list1">
-                        <button class="header_part2_buttons_list_button"><a href="#">HOME</a></button>
-                    </li>
-                    <li class="header_part2_buttons_list2"  class="list_item">
-                        <button class="header_part2_buttons_list_button"><a href="#">PAGES</a></button>
-                    </li>
-                    <li class="header_part2_buttons_list3"  class="list_item">
-                        <button class="header_part2_buttons_list_button"><a href="#">STAFF</a></button>
-                    </li>
-                    <li class="header_part2_buttons_list4"  class="list_item">
-                        <button class="header_part2_buttons_list_button"><a href="#">BLOG</a></button>
-                    </li>
-                    <li class="header_part2_buttons_list5"  class="list_item">
-                        <button class="header_part2_buttons_list_button"><a href="#">SHOP</a></button>
-                    </li>
-                    <li class="header_part2_buttons_list6"  class="list_item">
-                        <button class="header_part2_buttons_list_button"><a href="#">LANDING</a></button>
-                    </li>
-                    <li class="header_part2_buttons_list7"  class="list_item">
-                        <button class="header_part2_buttons_list_button"><a href="#">SEARCH</a></button>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-        </div>
-    </section>
-    </nav>
-</header>
+            <section class="header_part1">
+                <div class="header_part1_controlblock">
+                    <div class="header_part1_block1">
+
+                        <div class="header_part1_block1_subblock">
+                            <p class="sign">&#125;</p>
+                            <p class="text_1">Mon - Sat 8:00 17:30, Sunday-CLOSED </p>
+                        </div>
 
 
-<main>
-    <section class="main_part1">
-        <div class="main_part1_block">
-            <div class="main_part1_block1">
-                <p class="main_part1_block1_text1">DENTAL PRACTICE</p>
-            </div>
-            <div class="main_part1_block2">
-                <h1 class="main_part1_block1_title1">We provide the best</h1>
-                <h1 class="main_part1_block1_title2">services out there</h1>
-            </div>
-            <div class="main_part1_block3">
-                <button class="main_part1_block3_button1">VIEWE MORE</button>
-                <button class="main_part1_block3_button2">PURCHASE</button>
-            </div>
-        </div>
-    </section>
-    
-    
+                        <div class="header_part1_block1_subblock">
+                            <img class="phone-call" src="/img/free-icon-font-phone-call.png" alt="phone-call">
+                            <p class="text_2">+654/4715-167</p>
+                        </div>
 
-<script src="js/app.js"></script>
+                        <div class="header_part1_block1_subblock">
+                            <p class="text_3">allsmiles@qodeinteractive.com</p>
+                        </div>
+
+                        <div class="header_part1_block1_subblock">
+                            <img class="font-marker" src="/img/free-icon-font-marker.png" alt="font-marker">
+                            <p class="text_4">63 Wall St, New York, NY 10005</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section class="header_part2">
+                <div class="header_part2_controlblock">
+                    <button class="burger_header_btn" id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="header_part2_name">
+                        <h1 class="header_part2_name_part1">ALL</h1>
+                        <h1 class="header_part2_name_part2">SMILES</h1>
+                    </div>
+                    <div class="header_part2_buttons">
+                        <ul class="header_part2_buttons_list">
+                            <li class="header_part2_buttons_list1">
+                                <button class="header_part2_buttons_list_button exept"><a href="#">HOME</a></button>
+                            </li>
+                            <li class="header_part2_buttons_list2" class="list_item">
+                                <button class="header_part2_buttons_list_button"><a href="#">PAGES</a></button>
+                            </li>
+                            <li class="header_part2_buttons_list3" class="list_item">
+                                <button class="header_part2_buttons_list_button"><a href="#">STAFF</a></button>
+                            </li>
+                            <li class="header_part2_buttons_list4" class="list_item">
+                                <button class="header_part2_buttons_list_button"><a href="#">BLOG</a></button>
+                            </li>
+                            <li class="header_part2_buttons_list5" class="list_item">
+                                <button class="header_part2_buttons_list_button"><a href="#">SHOP</a></button>
+                            </li>
+                            <li class="header_part2_buttons_list6" class="list_item">
+                                <button class="header_part2_buttons_list_button"><a href="#">LANDING</a></button>
+                            </li>
+                            <li class="header_part2_buttons_list7" class="list_item">
+                                <button class="header_part2_buttons_list_button"><a href="#">SEARCH</a></button>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+        </nav>
+    </header>
+
+
+
+
+
+    <main>
+        <section class="main_part1">
+
+            <div class="main_part1_block">
+                <div class="main_part1_block1">
+                    <p class="main_part1_block1_text1">DENTAL PRACTICE</p>
+                </div>
+                <div class="main_part1_block2">
+                    <h1 class="main_part1_block1_title1">We provide the best</h1>
+                    <h1 class="main_part1_block1_title2">services out there</h1>
+                </div>
+                <div class="main_part1_block3">
+                    <button class="main_part1_block3_button1">VIEWE MORE</button>
+                    <button class="main_part1_block3_button2">PURCHASE</button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="main_part2">
+            <div class="main_part2_block"  id="slider">
+                <div class="main_part2_block1">
+                    <img class="main_part2_block3_image1" src="img/h1-img-1.jpg.png" alt="doc chacking girls teeth">
+                    <h1 class="main_part2_block1_title1">Pick the dantist that fitsall your <br> needs the best</h1>
+                    <p class="main_part2_block1_text1">
+                        Lorem ipsum dolor sit amet, eu duo ferri labor. Mea ex <br> modo reque senserit, et sed <br>
+                        hinc dolor, scaevola sum salutandi expetendis <br> vix ne. Eros dicat his sum mel quod mundi
+                        consequat sum.
+                    </p>
+                    <a href="#" class="main_part2_block1_search">READ MORE</a>
+                </div>
+                <div class="main_part2_block2">
+                    <img class="main_part2_block3_image2" src="img/h1-img-2.jpg.png" alt="docs photo">
+                    <p class="main_part2_block2_text">Professional dental services 24/7</p>
+                    <p class="main_part2_block2_text">Oral hygiene advisory & assessment</p>
+                    <p class="main_part2_block2_text">Oral and maxillofacial surgery</p>
+                    <p class="main_part2_block2_text">Dental public health insurance</p>
+                    <p class="main_part2_block2_text">Free online appointment booking</p>
+                    <p class="main_part2_block2_text">Various cosmetic dentistry services</p>
+                    <p class="main_part2_block2_text">Special care dentistry services</p>
+                </div>
+                <div class="main_part2_block3">
+                    <h1 class="main_part2_block3_title">Working Hours</h1>
+                    <div>
+                        <p class="main_part2_block3_text">Monday ............................ 8AM-7PM</p>
+                        <p class="main_part2_block3_text">Tuesday ............................ 8AM-7PM</p>
+                        <p class="main_part2_block3_text">Wednesday ....................... 8AM-7PM</p>
+                        <p class="main_part2_block3_text">Thursday .......................... 8AM-7PM</p>
+                        <p class="main_part2_block3_text">Friday ................................ 8AM-7PM</p>
+                        <p class="main_part2_block3_text">Saturday .......................... 8AM-7PM</p>
+                        <p class="main_part2_block3_text">Sunday ............................... CLOSED</p>
+                    </div>
+                    <div class="main_part2_block3_dop">
+                        Call Us:+354/759-1675
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="controls">
+                <button class="btnPrev"><</button>
+                        
+                <button class="btnNext">></button>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="main_part3">
+            <div class="main_part3_block">
+                <div class="main_part3_block1">
+                    <img src="img/h1-icon-img-1.png.png" class="main_part3_block1_img" alt="photo" width="97px" height="96px">
+                      <div class="main_part3_block2">
+                        <h1 class="main_part3_block2_title">Root Canal Specialist</h1>
+                        <p class="main_part3_block2_text">Vix nibh iudicabit necessitus et, quam <br> inermis voluptatus.</p>
+                      </div>
+                </div>
+                <div class="main_part3_block1">
+                    <img src="img/h1-icon-img-2.png.png" class="main_part3_block1_img" alt="photo2" width="97px" height="96px">
+                    <div class="main_part3_block2">
+                        <h1 class="main_part3_block2_title">Alignment Specialist</h1>
+                        <p class="main_part3_block2_text">Vix nibh iudicabit necessitus et, quam <br> inermis voluptatus.</p>
+                    </div>
+                </div>
+                <div class="main_part3_block1">
+                    <img src="img/h1-icon-img-3.png.png" class="main_part3_block1_img" alt="photo3" width="97px" height="96px">
+                    <div class="main_part3_block2">
+                        <h1 class="main_part3_block2_title">Cosmetic Dentistry</h1>
+                        <p class="main_part3_block2_text">Vix nibh iudicabit necessitus et, quam <br> inermis voluptatus.</p>
+                    </div>
+                </div>
+
+                <div class="main_part3_block1">
+                    <img src="img/h1-icon-img-4-1.png.png" class="main_part3_block1_img" alt="photo4" width="97px" height="96px">
+                    <div class="main_part3_block2">
+                        <h1 class="main_part3_block2_title">Oral Hygiene Experts</h1>
+                        <p class="main_part3_block2_text">Vix nibh iudicabit necessitus et, quam <br> inermis voluptatus.</p>
+                    </div>
+                </div>
+                <div class="main_part3_block1">
+                    <img src="img/h1-icon-img-5-1.png.png" class="main_part3_block1_img" alt="photo5" width="97px" height="96px">
+                    <div class="main_part3_block2">
+                        <h1 class="main_part3_block2_title">Live Dental Advisory</h1>
+                        <p class="main_part3_block2_text">Vix nibh iudicabit necessitus et, quam <br> inermis voluptatus.</p>
+                    </div>
+                </div>
+                <div class="main_part3_block1">
+                    <img src="img/h1-icon-img-6.png.png" class="main_part3_block1_img" alt="photo6" width="97px" height="96px">
+                    <div class="main_part3_block2">
+                        <h1 class="main_part3_block2_title">Cavity Inspection</h1>
+                        <p class="main_part3_block2_text">Vix nibh iudicabit necessitus et, quam <br> inermis voluptatus.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <section class="main_part4">
+            <div class="main_part4_block1">
+            <p class="main_part4_block1_text1">DENTAL PRACTICE</p>
+            <h1 class="main_part4_block1_title1">Fully dedicated to your <br> dental health</h1>
+            <p class="main_part4_block1_text2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam voluptas, sunt quam <br>
+             vel est similique corrupti omnis nisi ducimus deleniti. Neque adipisci officiis <br>
+              sit ad doloremque sed nemo. In, molestias. Lorem, ipsum dolor sit amet <br>
+              consectetur adipisicing elit. Ea id inventore laudantium corrupti nam? Explicabo <br>
+              odit iste vitae animi quia. Velit, dolorem dignissimos quam quos illo aperiam consequuntur doloribus iure!
+            </p>
+            <p class="main_part4_block1_text3">Andrea McCollins</p>
+            </div>
+            <div class="main_part4_block2">
+                <iframe class="youtube_video_main_part4"  src="https://www.youtube.com/embed/pDDCKGV8cuM?si=-UiQIgN1lsaiPfYv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+
+
+
+        <section class="main_part5" >
+            <div class="main_part5_block">
+                <div class="main_part5_block1">
+                    <p class="main_part5_block1_text1">OUR DEAR CLIENTS</p>
+                    <h1 class="main_part5_block1_title1">What People Say</h1>
+                    <p class="main_part5_block1_text2">In sea viderer delicatissimi, urbanitas sententiae quo blandit maiorum euripidis.</p>
+                </div>
+                <div class="main_part5_block2" id="slider2">
+                    <div class="main_part5_block2_addblock1">
+                        <img src="img/h1-testimonials-img-2-1.png.png" alt="woman">
+                        <h1 class="main_part5_block2_addblock1_title">Quick, easy & reliable</h1>
+                        <p class="main_part5_block2_addblock1_text">Duis sed odio sit amet nibh vulputate cuprsus a sit am <br> mauris. Morbi accumsan sum ipsum velit. Nam nec <br> tellus am od tincidunt auctor.</p>
+                        <p class="main_part5_block2_addblock1_text1">Jenna Johnson</p>
+                    </div>
+                    <div class="main_part5_block2_addblock1">
+                        <img src="img/h1-testimonials-img-1-1.png.png" alt="whight man">
+                        <h1 class="main_part5_block2_addblock1_title">The best clinic in town</h1>
+                        <p class="main_part5_block2_addblock1_text">Duis sed odio sit amet nibh vulputate cursus a sit am <br> mauris. Morbi accumsan sum ipsum velit. Nam nec <br> tellus am od tincidunt auctor.</p>
+                        <p class="main_part5_block2_addblock1_text1">Robert Logan</p>
+                    </div>
+                    <div class="main_part5_block2_addblock1">
+                        <img src="img/h1-testimonials-img-3-1.png.png" alt="black man">
+                        <h1 class="main_part5_block2_addblock1_title">The true professionals</h1>
+                        <p class="main_part5_block2_addblock1_text">Duis sed odio sit amet nibh vulputate cursus a sit am <br> mauris. Morbi accumsan sum ipsum velit. Nam nec <br> tellus am od tincidunt auctor.</p>
+                        <p class="main_part5_block2_addblock1_text1">August Johns</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls2">
+                <button class="btnPrev2"><</button>
+                        
+                <button class="btnNext2">></button>
+            </div>
+        </section>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+            integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/app.js"></script>
 </body>
+
 </html>
