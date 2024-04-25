@@ -333,10 +333,10 @@ time, mark, audio, video {
 .header_part2_buttons_list{
     display: flex;
     justify-content: space-between;
-    gap: 70px;
+    gap: 50px;
     margin-top: 3px;
     margin-bottom: 25px;
-    margin-right: 100px;
+   
     
     
 }
@@ -386,14 +386,11 @@ time, mark, audio, video {
 /* main_part1 start */
 
   .main_part1_block{
-    max-width: 600px;
-    max-height: 400px;
-    display: grid;
-    align-items: center;
+    width: 600px;
+    height: 400px;
     position: relative;
-    top:187px;
+    top: 187px;
     left: 310px;
-    
   }
 
   
@@ -401,16 +398,13 @@ time, mark, audio, video {
   .main_part1_block1{
     width: 168px;
     height: 29px;
-    align-content: center;
     border-radius: 5px;
     background: rgb(244, 87, 46);
     align-content: center;
   }
   
   .main_part1_block2{
-    
-    width: 559px;
-    height: 184px;
+    margin-right: ;
   }
 
   .main_part1_block3{
@@ -495,16 +489,13 @@ margin-bottom: 10px;
   .main_part2_block{
     display: flex;
     justify-content: space-around;
-    gap: 10px;
     margin-top: 150px;
     flex-wrap: nowrap;
     width: 100%;
     height: 550px;
     
  }
- .main_part2_block1{
-    padding-left: 10px;
- }
+
  
 
  .main_part2_block3_image1{
@@ -630,12 +621,13 @@ display: none;
  /* main_part3 start */
 
  .main_part3_block{
+    margin: 0 auto;
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3,400px);
     margin-top: 80px;
     align-items: center;
-    margin-left: 130px;
+   
     
     
  }
@@ -772,8 +764,8 @@ margin: 0px;
 }
 
 .main_part5_block2{
-    display: grid;
-    grid-template-columns: repeat(3,500px);
+    display: flex;
+   justify-content: space-around;
     margin-top: 83px;
 }
 
