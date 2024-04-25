@@ -779,7 +779,7 @@ margin-bottom: 10px;
     .main_part3_block{
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(3,250px);
+        grid-template-columns: repeat(3,260px);
         margin-top: 0px;
         align-items: center;
         
@@ -787,20 +787,20 @@ margin-bottom: 10px;
      .main_part3_block2_title{
         color: rgb(30, 45, 120);
         font-family: Catamaran;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
         line-height: 25px;
         letter-spacing: 0%;
         text-align: left;
         margin-top: 0px;
         margin-bottom: 2px;
-        margin-left: 28px;
+        
      }
      
      .main_part3_block2_text{
          color: rgb(138, 138, 138);
      font-family: Open Sans;
-     font-size: 12px;
+     font-size: 10px;
      font-weight: 400;
      line-height: 25px;
      letter-spacing: 0%;
@@ -811,8 +811,8 @@ margin-bottom: 10px;
      
      }
     .main_part3_block1_img{
-        width:85px ;
-        height:84px ;
+        width:75px ;
+        height:74px ;
     }
     .main_part3_block1{
         display: flex;
@@ -822,11 +822,12 @@ margin-bottom: 10px;
      }
 }
 
-@media (max-width:765px) {
+@media (max-width:780px) {
     .main_part3_block{
+        align-self: center;
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(3,200px);
+        grid-template-columns: repeat(3,240px);
         margin-top: 0px;
         align-items: center;
         
@@ -834,7 +835,7 @@ margin-bottom: 10px;
      .main_part3_block2_title{
         color: rgb(30, 45, 120);
         font-family: Catamaran;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 600;
         line-height: 20px;
         letter-spacing: 0%;
@@ -847,32 +848,124 @@ margin-bottom: 10px;
      .main_part3_block2_text{
          color: rgb(138, 138, 138);
      font-family: Open Sans;
-     font-size: 10px;
+     font-size: 9px;
      font-weight: 400;
      line-height: 20px;
      letter-spacing: 0%;
      text-align: left;
      margin-top: 0px;
      margin-bottom: 0px;
-     padding-left: 28px;
+     padding-left: 10px;
      
      }
     .main_part3_block1_img{
-        width:60px ;
-        height:58px ;
+        width:55px ;
+        height:53px ;
     }
     .main_part3_block1{
         display: flex;
-        height: 130px; 
+        height: 100px; 
         margin-bottom: 20px;  
         
      }
 }
-@media (max-width:610px) {
+@media (max-width:722px) {
     .main_part3_block{
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(3,150px);
+        grid-template-columns: repeat(3,200px);
+        margin-top: -50px;
+        align-items: center;
+        
+     }
+     .main_part3_block2_title{
+        color: rgb(30, 45, 120);
+        font-family: Catamaran;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 10px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 15px;
+     }
+     
+     .main_part3_block2_text{
+         color: rgb(138, 138, 138);
+     font-family: Open Sans;
+     font-size: 8px;
+     font-weight: 400;
+     line-height: 10px;
+     letter-spacing: 0%;
+     text-align: left;
+     margin-top: 0px;
+     margin-bottom: -500px;
+     padding-left: 13px;
+     
+     }
+    .main_part3_block1_img{
+        width:65px ;
+        height:63px ;
+    }
+    .main_part3_block1{
+        display: flex;
+        height: 80px; 
+        margin-bottom: 10px;  
+        
+     }
+}
+@media (max-width:600px) {
+    .main_part3_block{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,180px);
+        margin-top: -50px;
+        align-items: center;
+        
+     }
+     .main_part3_block2_title{
+        color: rgb(30, 45, 120);
+        font-family: Catamaran;
+        font-size: 9px;
+        font-weight: 600;
+        line-height: 10px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 13px;
+     }
+     
+     .main_part3_block2_text{
+         color: rgb(138, 138, 138);
+     font-family: Open Sans;
+     font-size: 7px;
+     font-weight: 400;
+     line-height: 10px;
+     letter-spacing: 0%;
+     text-align: left;
+     margin-top: 0px;
+     margin-bottom: -500px;
+     padding-left: 11px;
+     
+     }
+    .main_part3_block1_img{
+        width:55px ;
+        height:53px ;
+    }
+    .main_part3_block1{
+        display: flex;
+        height: 70px; 
+        margin-bottom: 10px;  
+        
+     }
+}
+@media (max-width:540px) {
+    .main_part3_block{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,130px);
         margin-top: -50px;
         align-items: center;
         
@@ -887,20 +980,20 @@ margin-bottom: 10px;
         text-align: left;
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-left: 28px;
+        margin-left: 13px;
      }
      
      .main_part3_block2_text{
          color: rgb(138, 138, 138);
      font-family: Open Sans;
-     font-size: 6px;
+     font-size: 7px;
      font-weight: 400;
      line-height: 10px;
      letter-spacing: 0%;
      text-align: left;
      margin-top: 0px;
      margin-bottom: -500px;
-     padding-left: 28px;
+     padding-left: 12px;
      
      }
     .main_part3_block1_img{
@@ -909,12 +1002,12 @@ margin-bottom: 10px;
     }
     .main_part3_block1{
         display: flex;
-        height: 80px; 
+        height: 70px; 
         margin-bottom: 10px;  
         
      }
 }
-@media (max-width:462px) {
+@media (max-width:390px) {
     .main_part3_block{
         width: 100%;
         display: grid;
@@ -926,36 +1019,36 @@ margin-bottom: 10px;
      .main_part3_block2_title{
         color: rgb(30, 45, 120);
         font-family: Catamaran;
-        font-size: 5px;
+        font-size: 7px;
         font-weight: 600;
-        line-height: 6px;
+        line-height: 8px;
         letter-spacing: 0%;
         text-align: left;
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-left: 28px;
+        margin-left: 10px;
      }
      
      .main_part3_block2_text{
          color: rgb(138, 138, 138);
      font-family: Open Sans;
-     font-size: 3px;
+     font-size: 4px;
      font-weight: 400;
-     line-height: 4px;
+     line-height: 10px;
      letter-spacing: 0%;
      text-align: left;
      margin-top: 0px;
      margin-bottom: -500px;
-     padding-left: 28px;
+     padding-left: 9px;
      
      }
     .main_part3_block1_img{
-        width:30px ;
-        height:28px ;
+        width:40px ;
+        height:38px ;
     }
     .main_part3_block1{
         display: flex;
-        height: 50px; 
+        height: 60px; 
         margin-bottom: 10px;  
         
      }
