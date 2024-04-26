@@ -974,7 +974,7 @@ margin-bottom: 10px;
         width: 100%;
         display: grid;
         justify-content: space-around;
-        grid-template-columns: repeat(3,130px);
+        grid-template-columns: repeat(2,140px);
         margin-top: -20px;
         align-items: center;
         
@@ -1016,12 +1016,12 @@ margin-bottom: 10px;
         
      }
 }
-@media (max-width:390px) {
+/* @media (max-width:390px) {
     .main_part3_block{
         width: 100%;
         display: grid;
         justify-content: space-around;
-        grid-template-columns: repeat(3,100px);
+        grid-template-columns: repeat(2,120px);
         margin-top: -30px;
         align-items: center;
         
@@ -1063,13 +1063,12 @@ margin-bottom: 10px;
         
      }
 }
-
+*/
 @media (max-width:342px) {
     .main_part3_block{
         width: 100%;
         display: grid;
-        justify-content: space-around;
-        grid-template-columns: repeat(3,90px);
+        grid-template-columns: repeat(2,120px);
         margin-top: -40px;
        
         
@@ -1077,40 +1076,40 @@ margin-bottom: 10px;
      .main_part3_block2_title{
         color: rgb(30, 45, 120);
         font-family: Catamaran;
-        font-size: 5px;
+        font-size: 8px;
         font-weight: 600;
-        line-height: 6px;
+        line-height: 9px;
         letter-spacing: 0%;
         text-align: left;
-        margin-top: 10px;
+        margin-top: 5px;
         margin-bottom: 0px;
-        margin-left: 2px;
+        margin-left: 5px;
      }
      
      .main_part3_block2_text{
          color: rgb(138, 138, 138);
      font-family: Open Sans;
-     font-size: 4px;
+     font-size: 6px;
      font-weight: 400;
-     line-height: 5px;
+     line-height: 7px;
      letter-spacing: 0%;
      text-align: left;
      margin-top: 0px;
      margin-bottom: -500px;
-     padding-left: 1px;
+     padding-left: 4px;
      
      }
     .main_part3_block1_img{
-        width:20px ;
-        height:19px ;
+        width:30px ;
+        height:28px ;
     }
     .main_part3_block1{
-        display: flex;
         height: 75px; 
         margin-bottom: 2px;  
         
      }
-}
+} */
+
 
 @media (max-width:1100px) {
     .main_part4{
