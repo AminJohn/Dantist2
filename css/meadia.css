@@ -197,7 +197,7 @@
 
         color: rgb(255, 255, 255);
        font-family: Open Sans;
-       font-size: 5px;
+       font-size: 5.5px;
        font-weight: 100;
        line-height: 21.67px;
        letter-spacing: 0%;
@@ -1016,54 +1016,7 @@ margin-bottom: 10px;
         
      }
 }
-/* @media (max-width:390px) {
-    .main_part3_block{
-        width: 100%;
-        display: grid;
-        justify-content: space-around;
-        grid-template-columns: repeat(2,120px);
-        margin-top: -30px;
-        align-items: center;
-        
-     }
-     .main_part3_block2_title{
-        color: rgb(30, 45, 120);
-        font-family: Catamaran;
-        font-size: 6px;
-        font-weight: 600;
-        line-height: 6.5px;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-top: 10px;
-        margin-bottom: 0px;
-        margin-left: 6px;
-     }
-     
-     .main_part3_block2_text{
-         color: rgb(138, 138, 138);
-     font-family: Open Sans;
-     font-size: 5px;
-     font-weight: 400;
-     line-height: 5.5px;
-     letter-spacing: 0%;
-     text-align: left;
-     margin-top: 0px;
-     margin-bottom: -500px;
-     padding-left: 5px;
-     
-     }
-    .main_part3_block1_img{
-        width:30px ;
-        height:28px ;
-    }
-    .main_part3_block1{
-        display: flex;
-        height: 40px; 
-        margin-bottom: 10px;  
-        
-     }
-}
-*/
+
 @media (max-width:342px) {
     .main_part3_block{
         width: 100%;
@@ -1305,6 +1258,9 @@ margin-bottom: 10px;
 }
 
 @media (max-width:1440px) {
+    .main_part5_block{
+        margin-bottom: 0px;
+    }
     .main_part5_block2{
     width: 100%;
     align-items: center;
@@ -1324,7 +1280,6 @@ margin-bottom: 10px;
     .main_part5_block{
         text-align: center;
         margin-top: 50px;
-        margin-bottom: 100px;
         height: 600px;
         background-color: bisque;
     }
@@ -1407,7 +1362,6 @@ margin-bottom: 10px;
     .main_part5_block{
         text-align: center;
         margin-top: 50px;
-        margin-bottom: 50px;
         height: 600px;
         background-color: bisque;
     }
@@ -1592,5 +1546,213 @@ margin-bottom: 10px;
         position: relative;
         left:-100px;
         bottom:410px;
+    }
+}
+
+
+@media (max-width:900px) {
+    .main_part6_block2_title1{
+        font-family: Catamaran;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left;
+        color: #fff;
+    
+    }
+    
+    .main_part6_block2_title2{
+        font-family: Catamaran;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left;
+        color: rgb(244, 87, 46);
+        
+    }
+    
+    .main_part6_block3_text1{
+    
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .main_part6_block4_button{
+        width: 150px;
+        height: 50px; 
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        text-align: center;
+        
+    }
+}
+
+
+@media (max-width:685px) {
+    .main_part6_block2_title1{
+        font-family: Catamaran;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: #fff;
+    
+    }
+    
+    .main_part6_block2_title2{
+        font-family: Catamaran;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: rgb(244, 87, 46);
+        
+    }
+    
+    .main_part6_block3_text1{
+    
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .main_part6_block4_button{
+        margin-top: 10px;
+        font-size: 10px;
+        width: 100px;
+        height: 40px; 
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        text-align: center;
+        margin-left: 170px;
+        
+    }
+    .main_part6_block{
+        display: grid;
+        align-items: center;
+    }
+    main_part6_block4{
+        width: 50px;
+    }
+}
+
+@media (max-width:452px) {
+    .main_part6_block2_title1{
+        font-family: Catamaran;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: center;
+        color: #fff;
+    
+    }
+    
+    .main_part6_block2_title2{
+        font-family: Catamaran;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        color: rgb(244, 87, 46);
+        
+    }
+    
+    .main_part6_block3_text1{
+    
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .main_part6_block4_button{
+        font-size: 8px;
+        width: 70px;
+        height: 30px; 
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        text-align: center;
+        margin-left: 150px;
+        
+        
+    }
+    .main_part6_block{
+        display: grid;
+        align-items: center;
+    }
+    main_part6_block4{
+        width: auto;
+    }
+}
+
+
+@media (max-width:360px) {
+
+    .main_part6_blockcontrol{
+        height: 100px;
+    }
+    .main_part6_block{
+        margin-top: 20px;
+    }
+    .main_part6_block2_title1{
+        font-family: Catamaran;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 17px;
+        text-align: center;
+        color: #fff;
+    
+    }
+    
+    .main_part6_block2_title2{
+        font-family: Catamaran;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 17px;
+        text-align: left;
+        color: rgb(244, 87, 46);
+        
+    }
+    
+    .main_part6_block3_text1{
+    
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .main_part6_block4_button{
+        font-size: 8px;
+        width: 70px;
+        height: 30px; 
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        text-align: center;
+        margin-left: 100px;
+        
+        
+    }
+    .main_part6_block{
+        display: grid;
+        align-items: center;
+    }
+    main_part6_block4{
+        width: auto;
     }
 }
