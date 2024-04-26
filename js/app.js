@@ -105,6 +105,8 @@ btnPrev.onclick = function(){
 //Slider 2
 const slider2  = document.querySelector('#slider2')
 const sliderItem2 = Array.from(slider2.children)
+const btnNext2 = document.querySelector('.btnNext2')
+const btnPrev2 = document.querySelector('.btnPrev2')
 
 sliderItem2.forEach(function(slide, index){
      
@@ -135,6 +137,40 @@ sliderItem2.forEach(function(slide, index){
        nextSlide.setAttribute('data-active',"")
     })
 })
-
-
-
+btnNext2.onclick = function(){
+    const currentSlide = slider2.querySelector('[data-active]')
+    const currentSlideIndex = +currentSlide.dataset.index
+ 
+    currentSlide.classList.add('hidden')
+    currentSlide.removeAttribute('data-active')
+ 
+    let nextSlideIndex;
+         if(currentSlideIndex+1==sliderItem2.length){
+             nextSlideIndex=0
+         }else{
+             nextSlideIndex = currentSlideIndex+1
+         }
+ 
+         const nextSlide = slider2.querySelector(`[data-index="${nextSlideIndex}"]`)
+         nextSlide.classList.remove('hidden')
+         nextSlide.setAttribute('data-active',"")
+ }
+ 
+ btnPrev2.onclick = function(){
+     const currentSlide = slider2.querySelector('[data-active]')
+     const currentSlideIndex = +currentSlide.dataset.index
+  
+     currentSlide.classList.add('hidden')
+     currentSlide.removeAttribute('data-active')
+  
+     let nextSlideIndex;
+          if(currentSlideIndex==0){
+              nextSlideIndex=sliderItem2.length-1
+          }else{
+              nextSlideIndex = currentSlideIndex-1
+          }
+  
+          const nextSlide = slider2.querySelector(`[data-index="${nextSlideIndex}"]`)
+          nextSlide.classList.remove('hidden')
+          nextSlide.setAttribute('data-active',"")
+  }
