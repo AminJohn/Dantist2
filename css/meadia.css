@@ -584,7 +584,7 @@ margin-bottom: 10px;
 }
 
 
-@media (max-width:1320px) {
+@media (max-width:1440px) {
     .main_part2_block{
             width: 100%;
             height: 650px;
@@ -700,7 +700,8 @@ margin-bottom: 10px;
     }
     .btnNext{
         position: relative;
-        left: 155px;
+        left: 150px;
+        bottom:445px ;
     }
     .btnPrev{
         position: relative;
@@ -1484,5 +1485,113 @@ margin-bottom: 10px;
     text-align: center;
     text-transform: uppercase;
     margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1440px) {
+    
+
+    .btnPrev2{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    border-radius: 50%;
+    z-index: 2;
+    display: block;
+    position: relative;
+    bottom: 400px;
+    right:220px;
+    opacity: 0.1;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 700;
+    align-self: center;
+    box-shadow: 2px 0px 2px 1px;
+    }
+    .btnNext2:hover, .btnNext2:active{
+        opacity: 0.3;
+        box-shadow: 3px 0px 3px 2px;
+        
+    }
+    .btnPrev2:hover, .btnPrev2:active{
+        opacity: 0.3;
+        box-shadow: 0px 2px 3px 2px;
+        
+    }
+    
+    .btnNext2{
+     margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    border-radius: 50%;
+    z-index: 2;
+    display: block;
+    position: relative;
+    bottom: 450px;
+    left:220px;
+
+    opacity: 0.1;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 700;
+    align-self: center;
+    box-shadow: 2px 0px 2px 1px;
+    }
+
+}
+@media (max-width:500px) {
+     .btnNext2{
+        width: 30px;
+        height: 35px;
+     }
+     .btnPrev2{
+        width: 30px;
+        height: 35px;
+     }
+     
+    
+    .btnNext2{
+        position: relative;
+        left: 150px;
+        bottom:445px ;
+    }
+    .btnPrev2{
+        position: relative;
+        left:-140px;
+        bottom:410px;
+    }
+}
+@media (max-width:360px) {
+    .btnNext2{
+        width: 30px;
+        height: 35px;
+     }
+     .btnPrev2{
+        width: 30px;
+        height: 35px;
+     }
+     
+    
+    .btnNext2{
+        position: relative;
+        left: 100px;
+        bottom:445px ;
+    }
+    .btnPrev2{
+        position: relative;
+        left:-100px;
+        bottom:410px;
     }
 }

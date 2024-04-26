@@ -802,5 +802,11 @@ text-transform: uppercase;
 margin-top: 29px;
 }
 
+.btnPrev2{
+    display: none;
+}
 
+.btnNext2{
+display: none;
+}
 /* main_part5 end */
