@@ -174,3 +174,47 @@ btnNext2.onclick = function(){
           nextSlide.classList.remove('hidden')
           nextSlide.setAttribute('data-active',"")
   }
+
+
+
+
+
+
+  const controlBlockSlide = document.querySelector('.controlBlockSlide')
+  const arrCBS = Array.from(controlBlockSlide.children)
+  const buttCBS1 = document.querySelector('#btnCBS1')
+  const buttCBS2 = document.querySelector('#btnCBS2')
+  const buttCBS3 = document.querySelector('#btnCBS3')
+  const buttCBS4 = document.querySelector('#btnCBS4')
+
+
+  
+  for(let i=0; i<arrCBS.length; i++){
+    arrCBS[i+1].classList.add('hiddenExp')
+    
+    buttCBS1.addEventListener('click',() =>{
+        arrCBS[0].classList.remove('hiddenExp')
+        arrCBS[1].classList.add('hiddenExp')
+        arrCBS[2].classList.add('hiddenExp')
+        arrCBS[3].classList.add('hiddenExp')
+    })
+    buttCBS2.addEventListener('click',() =>{
+        arrCBS[1].classList.remove('hiddenExp')
+        arrCBS[0].classList.add('hiddenExp')
+        arrCBS[2].classList.add('hiddenExp')
+        arrCBS[3].classList.add('hiddenExp')
+    })
+    buttCBS3.addEventListener('click',() =>{
+        arrCBS[3].classList.remove('hiddenExp')
+        arrCBS[0].classList.add('hiddenExp')
+        arrCBS[1].classList.add('hiddenExp')
+        arrCBS[2].classList.add('hiddenExp')
+    })
+    buttCBS4.addEventListener('click',() =>{
+        arrCBS[2].classList.remove('hiddenExp')
+        arrCBS[0].classList.add('hiddenExp')
+        arrCBS[1].classList.add('hiddenExp')
+        arrCBS[3].classList.add('hiddenExp')
+    })
+  }
+  
