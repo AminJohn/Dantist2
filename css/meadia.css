@@ -391,7 +391,7 @@
         top:100px;
         left: 50px;
       }
-.main_part1{
+
     .main_part1{
         background-image: url(img/dantist.svg);
          background-size: cover;
@@ -1113,7 +1113,7 @@ margin-bottom: 10px;
 @media (max-width:1100px) {
     .main_part4{
         width: 100%;
-        height: px;
+        height: 400px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -1316,5 +1316,88 @@ margin-bottom: 10px;
     }
     .hidden{
         display: none;
+    }
+}
+@media (max-width:379px) {
+    .main_part5_block{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 600px;
+        background-color: bisque;
+    }
+    
+    .main_part5_block1_text1{
+        color: rgb(221, 51, 51);
+    font-family: Open Sans;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 1.69px;
+    text-align: center;
+    text-transform: uppercase;
+   
+    }
+    
+    .main_part5_block1_title1{
+        color: rgb(30, 45, 120);
+    font-family: Catamaran;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60.01px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px;
+    }
+    
+    .main_part5_block1_text2{
+        color: rgb(138, 138, 138);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px;
+    
+    }
+    
+    .main_part5_block2{
+        display: flex;
+       justify-content: space-around;
+        margin-top: 83px;
+    }
+    
+    .main_part5_block2_addblock1_title{
+        color: rgb(30, 45, 120);
+    font-family: Catamaran;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 34.99px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 28px;
+    }
+    
+    .main_part5_block2_addblock1_text{
+        color: rgb(138, 138, 138);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    
+    .main_part5_block2_addblock1_text1{
+        color: rgb(221, 51, 51);
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 1.69px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 29px;
     }
 }
