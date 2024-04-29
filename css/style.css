@@ -104,7 +104,12 @@ a{
 
 .loading{
     color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    animation: load 3s infinite;
 }
+
 
 @keyframes rotate {
     0%{
@@ -159,11 +164,32 @@ a{
         transform: rotateX(-35deg) rotateY(-55deg)  rotateZ(-360deg)
     }
 }
+
+@keyframes load {
+    0%{
+        font-size: 15px;
+        font-weight: 400;
+        
+    }
+    50%{
+        font-size: 25px;
+        font-weight: 800;
+        border-top-color:red ;
+        
+    }
+    100%{
+        font-size: 15px;
+        font-weight: 400;
+       
+    }
+}
+    
 /*LOADER END*/
 
 
 /*HEADER PART 1*/
-.header_part1_block1{
+
+.header_part1_block1 {
     display: flex;
     justify-content: space-between;
     background-color: rgb(60, 60, 180);
