@@ -253,6 +253,80 @@ btnNext3.onclick = function(){
   }
 
 
+    //slider3
+    const slider4  = document.querySelector('#slider4')
+    const sliderItem4 = Array.from(slider3.children)
+    const btnNext3 = document.querySelector('.btnNext4')
+    const btnPrev3 = document.querySelector('.btnPrev4')
+    
+    
+    sliderItem4.forEach(function(slide, index){
+         
+    
+        if(index !==0 ){
+           slide.classList.add('hidden')
+        }
+    
+        slide.dataset.index = index
+    
+        sliderItem4[0].setAttribute('data-active', "")
+    
+        slide.addEventListener('click',function(){
+           slide.classList.add('hidden')
+           slide.removeAttribute('data-active')
+    
+    
+           let nextSlideIndex;
+           if(index+1==sliderItem3.length){
+               nextSlideIndex=0
+           }else{
+               nextSlideIndex = index+1
+           }
+           // const nextSlideIndex = +slide.dataset.index+1
+    
+           const nextSlide = slider4.querySelector(`[data-index ="${nextSlideIndex}"]`)
+           nextSlide.classList.remove('hidden')
+           nextSlide.setAttribute('data-active',"")
+        })
+    })
+    btnNext3.onclick = function(){
+        const currentSlide = slider4.querySelector('[data-active]')
+        const currentSlideIndex = +currentSlide.dataset.index
+     
+        currentSlide.classList.add('hidden')
+        currentSlide.removeAttribute('data-active')
+     
+        let nextSlideIndex;
+             if(currentSlideIndex+1==sliderItem4.length){
+                 nextSlideIndex=0
+             }else{
+                 nextSlideIndex = currentSlideIndex+1
+             }
+     
+             const nextSlide = slider4.querySelector(`[data-index="${nextSlideIndex}"]`)
+             nextSlide.classList.remove('hidden')
+             nextSlide.setAttribute('data-active',"")
+     }
+     
+     btnPrev4.onclick = function(){
+         const currentSlide = slider4.querySelector('[data-active]')
+         const currentSlideIndex = +currentSlide.dataset.index
+      
+         currentSlide.classList.add('hidden')
+         currentSlide.removeAttribute('data-active')
+      
+         let nextSlideIndex;
+              if(currentSlideIndex==0){
+                  nextSlideIndex=sliderItem4.length-1
+              }else{
+                  nextSlideIndex = currentSlideIndex-1
+              }
+      
+              const nextSlide = slider4.querySelector(`[data-index="${nextSlideIndex}"]`)
+              nextSlide.classList.remove('hidden')
+              nextSlide.setAttribute('data-active',"")
+      }
+    
 
 
   
