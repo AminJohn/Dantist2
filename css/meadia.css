@@ -2576,60 +2576,177 @@ text-align: left;
 
 @media (max-width:1440px) {
     
-    .btnPrev4{
-        display: block;
-   margin: 0 auto;
-    width: 50px;
-    height: 50px;
-    opacity: 1;
-    border-radius: 50%;
-    z-index: 2;
-    display: block;
-    position: relative;
-    bottom: 400px;
-    right:220px;
-    opacity: 0.1;
-    border: 1px solid black;
-    font-size: 30px;
-    font-weight: 700;
-    align-self: center;
-    box-shadow: 2px 0px 2px 1px;
+    .main_part10_controlblock{
+        background-color: rgba(125, 182, 147, 0.14);
+        height: 700px;
     }
-    .btnNext4:hover, .btnNext4:active{
-        opacity: 0.3;
-        box-shadow: 3px 0px 3px 2px;
+        .main_part10_block3_list{
+                width: 100%;
+                height: 650px;
+                align-content: center; 
+
+                
+        }
+        .main_part10_block3_listitem{
+            display: block;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
         
-    }
-   
-    .btnPrev4:hover, .btnPrev4:active{
-        opacity: 0.3;
-        box-shadow: 0px 2px 3px 2px;
+        .hidden{
+            display: none;
+            transition: 2s all;
+        }
         
-    }
+        
     
-    .btnNext4{
-     margin: 0 auto;
-    width: 50px;
-    height: 50px;
-    opacity: 1;
-    border-radius: 50%;
-    z-index: 2;
-    display: block;
-    position: relative;
-    bottom: 350px;
-    left:220px;
+        .btnPrev4{
+       margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        opacity: 1;
+        border-radius: 50%;
+        z-index: 2;
+        display: block;
+        position: relative;
+        bottom: 300px;
+        right:220px;
+        opacity: 0.1;
+        border: 1px solid black;
+        font-size: 30px;
+        font-weight: 700;
+        align-self: center;
+        box-shadow: 2px 0px 2px 1px;
+        }
+        .btnNex4t:hover, .btnNext4:active{
+            opacity: 0.3;
+            box-shadow: 3px 0px 3px 2px;
+            
+        }
+        .btnPrev4:hover, .btnPrev4:active{
+            opacity: 0.3;
+            box-shadow: 0px 2px 3px 2px;
+            
+        }
+        
+        .btnNext4{
+          margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        opacity: 1;
+        border-radius: 50%;
+        z-index: 2;
+        display: block;
+        position: relative;
+        bottom: 350px;
+        left:220px;
+    
+        opacity: 0.1;
+        border: 1px solid black;
+        font-size: 30px;
+        font-weight: 700;
+        align-self: center;
+        box-shadow: 2px 0px 2px 1px;
+        }
+       
+    
+}
 
-    opacity: 0.1;
-    border: 1px solid black;
-    font-size: 30px;
-    font-weight: 700;
-    align-self: center;
-    box-shadow: 2px 0px 2px 1px;
-    }
-    .main_part8_controlblock{
-        height: 600px;
-        background-color:lavender;
-        margin-top: 80px;
+@media (max-width:495px) {
+
+    .main_part10_controlblock{
+        background-color: rgba(125, 182, 147, 0.14);
+        height: 500px;
     }
 
+.main_part10_block2_title1{
+    margin: 0px 0px;
+    color: rgb(221, 51, 51);
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 1.69px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main_part10_block2_title2{
+    margin: 0px 0px;
+    color: rgb(30, 45, 120);
+font-family: Catamaran;
+font-size: 30px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.main_part10_block2_text1{
+    margin: 0px 0px;
+    color: rgb(138, 138, 138);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.main_part10_block3_listitem_text2{
+   
+    color: rgb(30, 45, 120);
+font-family: Catamaran;
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0%;
+
+}
+
+.main_part10_block3_listitem_text1{
+    
+    color: rgb(221, 51, 51);
+font-family: Open Sans;
+font-size: 10px;
+font-weight: 600;
+line-height: 12px;
+letter-spacing: 1.69px;
+
+text-transform: uppercase;
+}
+
+.main_part10_block3_listitem_text3{
+    color: rgb(138, 138, 138);
+font-family: Open Sans;
+font-size: 11px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0%;
+text-align: left;
+}
+.main_part10_block3_listitem_image{
+    width: 310px;
+}
+.btnPrev4{
+    width: 30px;
+        height: 30px;
+        align-content: center;
+        font-size:15px;
+     position: relative;
+     bottom: 300px;
+     right:150px;
+     
+     }
+
+     .btnNext4{
+        width: 30px;
+        height: 30px;
+        align-content: center;
+        font-size:15px;
+        position: relative;
+        bottom: 340px;
+        left: 148px;
+        
+        }
 }

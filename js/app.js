@@ -94,7 +94,7 @@ btnPrev.onclick = function(){
 
 
 
- AOS.init();
+
 
 
 
@@ -253,11 +253,11 @@ btnNext3.onclick = function(){
   }
 
 
-    //slider3
+    //slider4
     const slider4  = document.querySelector('#slider4')
-    const sliderItem4 = Array.from(slider3.children)
-    const btnNext3 = document.querySelector('.btnNext4')
-    const btnPrev3 = document.querySelector('.btnPrev4')
+    const sliderItem4 = Array.from(slider4.children)
+    const btnNext4 = document.querySelector('.btnNext4')
+    const btnPrev4 = document.querySelector('.btnPrev4')
     
     
     sliderItem4.forEach(function(slide, index){
@@ -277,7 +277,7 @@ btnNext3.onclick = function(){
     
     
            let nextSlideIndex;
-           if(index+1==sliderItem3.length){
+           if(index+1==sliderItem4.length){
                nextSlideIndex=0
            }else{
                nextSlideIndex = index+1
@@ -289,7 +289,7 @@ btnNext3.onclick = function(){
            nextSlide.setAttribute('data-active',"")
         })
     })
-    btnNext3.onclick = function(){
+    btnNext4.onclick = function(){
         const currentSlide = slider4.querySelector('[data-active]')
         const currentSlideIndex = +currentSlide.dataset.index
      
