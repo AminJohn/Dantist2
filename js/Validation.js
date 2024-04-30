@@ -1,3 +1,6 @@
+
+//VALIDATION
+
 const allDomains = ["google","yandex","mail", "gmail"]
 const eyeShow = document.querySelector('.eye_show')
 const eyeHide = document.querySelector('.eye_hide')
@@ -153,6 +156,11 @@ document.getElementById('add_form').addEventListener('submit', function (event) 
     }
 })
 
+//VALIDATION END
+
+
+
+
 
 
 // let inputText = document.querySelector('.inputText')
@@ -174,9 +182,11 @@ document.getElementById('add_form').addEventListener('submit', function (event) 
 // })
 
 
-const icon =document.querySelector('.icon')
-const search = document.querySelector('.search')
 
-icon.onclick  = function(){
-    search.classList.toggle('activeR')
-}
+
+// const icon =document.querySelector('.icon')
+// const search = document.querySelector('.search')        // SEARCH FORM 
+
+// icon.onclick  = function(){
+//     search.classList.toggle('activeR')
+// }

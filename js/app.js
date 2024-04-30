@@ -1,3 +1,7 @@
+
+
+
+//BURGER (header_part2)
 let burger = document.querySelector(".burger_header_btn")
 let header = document.querySelector(".header")
 
@@ -5,20 +9,25 @@ let header = document.querySelector(".header")
 burger.addEventListener("click",function(){
     header.classList.toggle("open")
 })
+//BURGER END
 
 
+
+
+
+//LOADER  (loader)
 let loader = document.querySelector('.inner')
 setTimeout(function(){
     loader.remove()
 }, 2000)
 
+//LOADER END
 
 
 
 
 
-
-
+//SLIDER (main_part2)
 const slider  = document.querySelector('#slider')
 const sliderItem = Array.from(slider.children)
 const btnNext = document.querySelector('.btnNext')
@@ -94,6 +103,7 @@ btnPrev.onclick = function(){
 
 
 
+// SLIDER END
 
 
 
@@ -101,8 +111,7 @@ btnPrev.onclick = function(){
 
 
 
-
-//Slider 2
+//Slider 2 (main_part5)
 const slider2  = document.querySelector('#slider2')
 const sliderItem2 = Array.from(slider2.children)
 const btnNext2 = document.querySelector('.btnNext2')
@@ -178,7 +187,7 @@ btnNext2.onclick = function(){
 
 
 
-  //slider3
+  //slider3 (main_part7)
   const slider3  = document.querySelector('#slider3')
 const sliderItem3 = Array.from(slider3.children)
 const btnNext3 = document.querySelector('.btnNext3')
@@ -253,7 +262,7 @@ btnNext3.onclick = function(){
   }
 
 
-    //slider4
+    //slider4 (main_part8)
     const slider4  = document.querySelector('#slider4')
     const sliderItem4 = Array.from(slider4.children)
     const btnNext4 = document.querySelector('.btnNext4')
@@ -339,6 +348,7 @@ btnNext3.onclick = function(){
     
 
 
+//BUTTON SLIDER (main_part7)
 
   const controlBlockSlide = document.querySelector('.controlBlockSlide')
   const arrCBS = Array.from(controlBlockSlide.children)
