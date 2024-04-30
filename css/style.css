@@ -408,8 +408,9 @@ a{
 }
 
 .header_part2_buttons_list{
+   
     display: flex;
-    gap: 20px;
+    justify-content: space-around;
     z-index: 1000;
 }
 .header_part2_name_part1{

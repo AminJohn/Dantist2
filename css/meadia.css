@@ -345,12 +345,13 @@
 
 @media (max-width:982px){
     .burger_header_btn{
+       
         display: block;
         z-index: 10;
     }
     .header_part2_buttons{
         position: absolute;
-        left: -390px;
+        left: -392px;
         top: 3.5px;
         width: 350px;
         background-color: rgb(148, 148, 227);
@@ -361,8 +362,9 @@
     }
     .header_part2_buttons_list{
         display: block;
-        list-style:circle;
+        list-style-type: none;
         z-index: 1000;
+       
     
     }
 
@@ -376,7 +378,8 @@
         font-size: 21px;
         display: block;
         padding: 10px 0px;
-        
+        border-bottom: 1px solid black;
+       
     }
     .header.open .header_part2_buttons {
         transform: translateX(100%);
