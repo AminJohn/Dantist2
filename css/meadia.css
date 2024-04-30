@@ -2657,6 +2657,7 @@ text-align: left;
     .main_part10_controlblock{
         background-color: rgba(125, 182, 147, 0.14);
         height: 500px;
+        margin-bottom: 0px;
     }
 
 .main_part10_block2_title1{
@@ -2749,4 +2750,18 @@ text-align: left;
         left: 148px;
         
         }
+}
+
+@media (max-width:814px) {
+    .footer_part1_control{
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3,100px);
+    }
+    .footer_part1_control_img{
+        width: 80px;
+        height: 85px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
