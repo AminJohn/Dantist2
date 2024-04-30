@@ -152,3 +152,31 @@ document.getElementById('add_form').addEventListener('submit', function (event) 
         alert("Форма успешно отправлено")
     }
 })
+
+
+
+// let inputText = document.querySelector('.inputText')
+// let submitForm = document.querySelector('.submitForm')
+// let information = document.querySelectorAll('div')
+
+// searchFunction = (text) =>{
+//     information.forEach((element) =>{
+//         if(element.textContent == text){
+//             element.style = "animation:animationElement 15s;"
+//             console.log(element)
+//         }
+//     })
+// }
+
+// submitForm.addEventListener('click', (e)=>{
+//     e.preventDefault();
+//     searchFunction(inputText.value)
+// })
+
+
+const icon =document.querySelector('.icon')
+const search = document.querySelector('.search')
+
+icon.onclick  = function(){
+    search.classList.toggle('activeR')
+}

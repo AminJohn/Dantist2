@@ -22,6 +22,7 @@ ul{
     list-style: none;
 }
 button{
+    cursor: pointer;
     border: none;
 }
 a{
@@ -185,6 +186,78 @@ a{
 }
     
 /*LOADER END*/
+
+/*SEARCH BUTTON*/
+.search{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 0 0 0 5px #6f8ebeb7;
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+   
+
+}
+.search .icon{
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    transform: translate(4px,11px);
+}
+.search .icon::before{
+    position: relative;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid #5a92c7b2;
+}
+
+.search .icon::after{
+    position: relative;
+    content: '';
+    width: 3px;
+    height: 12px;
+    background: #627ca2c9;
+    transform:translate(-2px, 13px) rotate(-38deg) ;
+
+
+}
+
+.search.activeR{
+    width: 300px;
+}
+.search .inputSrch{
+    position: relative;
+    width:100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+.search .inputSrch input{
+    position: absolute;
+    bottom: 50px;
+    top: 0px;
+    left: 50px;
+    width: 80%;
+    border: 0;
+    outline: 0;
+    font-size:18px;
+    padding: 10px 0;
+}
+/* SEARCH BUTTON END*/
 
 
 /*HEADER PART 1*/
