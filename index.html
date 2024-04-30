@@ -44,7 +44,7 @@
 <body>
 
      <div class="inner">
-        <div class="container">
+        <div class="containerLoader">
             <div class="ring"></div>
             <div class="ring"></div>
             <div class="ring"></div>
@@ -483,14 +483,30 @@
                         <h1 class="main_part9_block3_title">Request an Appointment</h1>
                         <p class="main_part9_block3_text">Proin gravida nibh vel velit auctor aliquet justo.</p>
                     </div>
-                    <div class="main_part9_block4">
-                        <form action="submit">
-                            <input type="text" name="firstname" placeholder="First Name" class="main_part9_block4_input">
-                            <input type="text" name="last name" id="name" placeholder="Last Name" class="main_part9_block4_input"> <br> <br>
-                            <input type="email" placeholder="E-mail Address" class="main_part9_block4_input"> 
-                            <input type="password" class="main_part9_block4_input" placeholder="Password" > <br> <br>
-                            <button class="main_part9_block4_button">SUBMIT</button>
-                        </form>
+                    <div class="validation_block">
+                        <div class="container">
+            
+                            <form action="#" class="form" id="add_form">
+                                <div class="input_box">
+                                    <input data-required="true" data-min-length="2" type="text" class="input_field" placeholder="Имя">
+                                </div>
+                                <div class="input_box">
+                                    <input data-required="true" data-min-length="2" data-email="@" type="text" class="input_field" placeholder="Адрес эл. почты">
+                                </div>
+                                <div class="input_box password_box">
+                                    <input data-required="true" data-min-length="6"  data-password="pass" type="password" id='password' class="input_field passwordEl" placeholder="Пароль">
+                                    
+                                </div>
+                                <div class="password_eye">
+                                    <img width="25px" class="eye eye_show" src="./img/png/preview-show-interface-icon-free-vector.jpg" alt="">
+                                    <img width="25px" class="eye eye_hide" src="./img/png/show-password-icon-eye-symbol-vision-hide-from-watch-icon-secret-view-web-design-element-vector.jpg" alt="">
+                                </div>
+                                
+                                
+                                <button type="submit" class="send_btn">SEND</button>
+                            </form>
+                            
+                    </div>
                     </div>
                 </div>
             </div>

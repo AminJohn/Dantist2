@@ -329,7 +329,16 @@ btnNext3.onclick = function(){
     
 
 
-  
+
+
+
+
+
+    
+    
+    
+
+
 
   const controlBlockSlide = document.querySelector('.controlBlockSlide')
   const arrCBS = Array.from(controlBlockSlide.children)
